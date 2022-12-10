@@ -1,6 +1,6 @@
 # PROBLEM
 
-If you try to start streamlit in a github codespace with
+If you try to start Streamlit in a GitHub Codespace with
 
 ```streamlit run YourFile.py```
 
@@ -8,7 +8,7 @@ and open the provided URL, you'll be stuck at
 
 ![alt text](https://github.com/RomanKehr/streamlit-codespaces/raw/main/pleasewait.png "Please wait...")
 
-# SOLUTION
+# Workaround
 
 Add the following lines to your _.streamlit\config.toml_
 
