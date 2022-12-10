@@ -19,3 +19,5 @@ enableXsrfProtection = false
 ```
 
 After this, you can access your streamlit app in the browser from inside the codespace without a problem.
+
+*WARNING: You might want to set these back to their default values ```true``` or remove the lines before publishing.*
