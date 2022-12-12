@@ -10,7 +10,11 @@ and open the provided URL, you'll be stuck at
 
 # Workaround
 
-Add the following lines to your _.streamlit\config.toml_
+Start Streamlit with
+
+```streamlit run YourFile.py --enableCORS=false --enableXsrfProtection=false```
+
+or add the following lines to your _.streamlit\config.toml_
 
 ```
 [server]
